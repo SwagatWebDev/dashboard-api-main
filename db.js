@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbHOST = process.env.MONGODB_DEV_URL;
+const dbHOST = process.env.MONGODB_LOCAL_URL;
 
 mongoose.connect(dbHOST)
     .then(() => {
